@@ -1,241 +1,178 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #e7dcd1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e7dcd1;
 }
 
-
-
-/*-----------------------------------NAVBAR------------------------------------*/
-.nav_bar{
-    list-style: none;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    padding: 10px;
-
-}
-.nav_items li{
-
-    display: inline-block;
-    padding-inline: 15px;
-    margin-top: 15px;
-    font-family: 'Oswald', sans-serif;
-
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-header{
-    border-bottom: 1px solid black;
-    display: flex;
-    justify-content: center;
-
+.nav_bar {
+  list-style: none;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  padding: 10px;
 }
 
-
-.logo_today{
-    height: 250px;
-    padding: 10px;
-
+.nav_items li {
+  display: inline-block;
+  padding-inline: 15px;
+  margin-top: 15px;
+  font-family: "Oswald", sans-serif;
 }
 
-.pagina1{
-    background-image: url("../images/img_inicio.jpg");
-    display: inline-flex;
-    text-justify:auto;
-
-}
-.titulo1{
-    text-align: center;
-    padding: 50px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 80px;
-    font-weight: 800;
-    background-color: #d17327;
-
+a {
+  text-decoration: none;
+  color: black;
 }
 
-
-.parrafo1{
-    background-color: rgb(250, 204, 120);
-    padding: 100px;
-} 
-
-
-
-.parrafo1bis{
-    margin-block: 40px;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+header {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
 }
 
-
-/*-------------------------------------SHOP-----------------------------------*/
- .fotos_gorra{
-
-    width: 300px;
-    height: 300px;
-    margin-bottom: 100px;
-    padding: 40px;
-
-
- }
-.gorras{
-    border: 1px solid black;
-    width: 300px;
-    align-items: center;
-    
+.logo_today {
+  height: 250px;
+  padding: 10px;
 }
 
-
-
-/*----------------------------------SALE--------------------------------------*/
-.imagen_sale{
-    display: inline;
-}
-.gorra_sale{
-    border: 1px black;
-    width: 500px;
-
-
-}
-.texto_sale{
-    text-align: center;
+.pagina1 {
+  background-image: url("../images/img_inicio.jpg");
+  display: inline-flex;
+  text-justify: auto;
 }
 
-
-
-/*-------------------------------CONTACTO----------------------------*/
-.parrafo_contacto{
-    margin-left: 100px;
-    margin-block: 40px;
-}
-.formulario{
-    margin-left: 100px;
-    margin-block: 50px;
+.titulo1 {
+  text-align: center;
+  padding: 50px;
+  font-family: "Oswald", sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  background-color: #d17327;
 }
 
-/*---------------FOOTER-----------------*/
-.pie{
-    border-top: 1px solid black;
-    text-align: center;
-    padding: 70px;
-    background-color: #e7dcd1;
+.parrafo1 {
+  background-color: rgb(250, 204, 120);
+  padding: 100px;
 }
 
-.mapita{
-
-    margin: 100px;
+.parrafo1bis {
+  margin-block: 40px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
 }
 
-
-/*----------------------------------QUIENSOY----------------*/
-.quien_caja{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "caja1 caja2";
-    width: 100%;
-    height: 100vh;
-
+.fotos_gorra {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 100px;
+  padding: 40px;
 }
 
-.caja{
-    border: 1px solid black;
+.gorras {
+  border: 1px solid black;
+  width: 300px;
+  align-items: center;
 }
 
-.caja1{
-    grid-area: caja1
-    ;
+.imagen_sale {
+  display: inline;
 }
 
-.caja2{
-    grid-area: caja2;
+.gorra_sale {
+  border: 1px black;
+  width: 500px;
 }
 
-
-.titulo_quien_soy{
-    text-align: center;
-}
-.titulo_hacia_donde{
-    text-align: center;
+.texto_sale {
+  text-align: center;
 }
 
-.texto_quien_soy{
-    padding: 20px;
-}
-.texto_hacia_donde{
-    padding: 20px;
+.parrafo_contacto {
+  margin-left: 100px;
+  margin-block: 40px;
 }
 
-.caja1{
-    background-image: url("../images/gorra\ gris.jpg");
-}
-.caja2{
-    background-image: url("../images/gorra\ blanca.jpg");
+.formulario {
+  margin-left: 100px;
+  margin-block: 50px;
 }
 
-/* ---------------------------------------------------------mediaqueries---------------------------*/
-
-
-
-@media screen and (max-width: 1023px) {
-
-
+.pie {
+  border-top: 1px solid black;
+  text-align: center;
+  padding: 70px;
+  background-color: #e7dcd1;
 }
 
-
-
-
-
-@media screen and (max-width: 810px) {
-
-    .titulo1{
-        font-size: 50px;
-        
-    }
-    .nav_items li{
-        padding-inline: 10px;
-    }
-
-    .fotos_gorra{
-        display: inline;
-    }
-
+.mapita {
+  margin: 100px;
 }
 
-
-
-
-@media screen and (max-width: 486px) {
-
-.titulo1{
-    font-size: 20px;       
-}
-.nav_items li{
-    padding-inline: 5px;
+.quien_caja {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "caja1 caja2";
+  width: 100%;
+  height: 100vh;
 }
 
+.caja {
+  border: 1px solid black;
 }
 
-    
+.caja1 {
+  grid-area: caja1;
+  background-image: url("../images/gorra gris.jpg");
+}
 
+.caja2 {
+  grid-area: caja2;
+  background-image: url("../images/gorra blanca.jpg");
+}
 
+.titulo_quien_soy {
+  text-align: center;
+}
 
-/*--------------------animations-----------**/
+.titulo_hacia_donde {
+  text-align: center;
+}
+
+.texto_quien_soy {
+  padding: 20px;
+}
+
+.texto_hacia_donde {
+  padding: 20px;
+}
 
 .card-img-top {
-    transition:
-      width 2s,
-      height 2s,
-      background-color 2s,
-      rotate 2s;
+  transition: width 2s, height 2s, background-color 2s, rotate 2s;
 }
-.card-img-top:hover{
-    width: 20%;
-
+.card-img-top:hover {
+  width: 20%;
 }
 
+@media screen and (max-width: 810px) {
+  .titulo1 {
+    font-size: 50px;
+  }
+  .nav_items li {
+    padding-inline: 10px;
+  }
+  .fotos_gorra {
+    display: inline;
+  }
+}
+@media screen and (max-width: 486px) {
+  .titulo1 {
+    font-size: 20px;
+  }
+  .nav_items li {
+    padding-inline: 5px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
